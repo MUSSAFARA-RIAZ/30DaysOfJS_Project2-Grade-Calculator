@@ -1,0 +1,74 @@
+body {
+    background-color: blue;
+
+}
+
+input {
+    margin-top: 20px;
+    font-size: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    padding: 8px;
+}
+
+.no-outline:focus {
+    outline: none;
+
+}
+#mainbox {
+    width: 550px;
+    height: 450px;
+    border: 4px solid black;
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: flex-end;
+    align-content: flex-end;
+    border-radius: 10px;
+
+}
+
+#showdata {
+    display: block;
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 5px;
+
+
+    font-weight: bold;
+}
+
+#perbtn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(183, 183, 219);
+    border-radius: 20px;
+    border-color: blue;
+    border: 2px solid blue;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg,
+            blue, red,green,yellow);
+   
+    background-size: 50% auto;
+  
+    background-clip: text;
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: block;
+    font-size: 40px;
+    margin-top: 120px;
+ }
+
+@keyframes textclip {
+    to {
+        background-position: 50% center;
+    }
+}
